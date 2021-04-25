@@ -44,6 +44,16 @@ pre {
     transition: top 0.2s ease-in-out;
 }
 
+#sitetitle {
+    font-size: 0.75rem;
+}
+
+@media (min-width:992px) {
+    #sitetitle {
+        font-size: 1rem;
+    }
+}
+
 .main-content {
     min-height: 300px;
 }
